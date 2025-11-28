@@ -110,3 +110,129 @@
 - **Mini Project**: Complete Decoder with masking
 
 ---
+## Month 3: Training, Optimization & Complete Implementation
+
+### Week 9: Optimization & Training Setup
+**Theory (3 days)**
+- Adam optimizer mathematics
+- Learning rate scheduling (warmup + decay)
+- Loss functions (cross-entropy)
+- Gradient clipping
+
+**Practice (4 days)**
+- Implement Adam optimizer from scratch
+- Build learning rate scheduler
+- Create training loop structure
+- Add gradient clipping
+- **Mini Project**: Training infrastructure with logging
+
+### Week 10: Complete Transformer Architecture
+**Theory (2 days)**
+- Connect encoder and decoder
+- Final linear layer and softmax
+- Output generation strategies
+
+**Practice (5 days)**
+- Integrate encoder + decoder
+- Add final projection layer
+- Implement forward pass for full model
+- Test with dummy data
+- Count parameters and verify architecture
+- **Mini Project**: Complete Transformer model class
+
+### Week 11: Training on Real Task
+**Theory (2 days)**
+- Dataset preparation and batching
+- Tokenization strategies (BPE basics)
+- Padding and masking in batches
+
+**Practice (5 days)**
+- Choose simple task (e.g., machine translation on small dataset, or sequence copying)
+- Prepare dataset and dataloaders
+- Train the transformer
+- Monitor loss and metrics
+- Debug training issues
+- **Mini Project**: Trained transformer on toy task
+
+### Week 12: Inference & Advanced Topics
+**Theory (2 days)**
+- Greedy decoding
+- Beam search algorithm
+- Temperature and sampling strategies
+
+**Practice (5 days)**
+- Implement greedy decoding
+- Build beam search decoder
+- Add temperature scaling and top-k/top-p sampling
+- Test generation quality
+- Compare different decoding strategies
+- **Final Project**: Complete transformer with multiple inference modes
+
+---
+
+## Daily Study Structure (2-3 hours/day)
+
+**Morning Session (1-1.5 hours)**
+- Theory study and note-taking
+- Watch relevant tutorial videos
+- Read paper sections
+
+**Evening Session (1-1.5 hours)**
+- Hands-on coding implementation
+- Debug and test code
+- Document learnings
+
+## Resources Needed
+
+**Primary**
+- "Attention Is All You Need" paper
+- PyTorch/TensorFlow documentation
+- Jupyter notebooks for experimentation
+
+**Supplementary**
+- The Illustrated Transformer (Jay Alammar)
+- Harvard NLP Annotated Transformer
+- 3Blue1Brown videos on neural networks
+
+## Weekly Checkpoints
+
+- **End of each week**: Review and test all code written
+- **Document**: Keep a learning journal
+- **Build**: Commit code to GitHub repository
+- **Verify**: Compare outputs with PyTorch implementations
+
+## Success Metrics
+
+**Month 1 Complete**: You can implement attention mechanism and understand the math
+**Month 2 Complete**: You have working encoder and decoder blocks
+**Month 3 Complete**: You have a fully trained transformer generating outputs
+
+## Pro Tips
+
+1. **Start simple**: Use small dimensions (d_model=128, heads=2) for testing
+2. **Visualize everything**: Plot attention weights, embeddings, gradients
+3. **Compare constantly**: Verify your implementation against PyTorch
+4. **Debug systematically**: Test each component individually
+5. **Don't skip math**: Understanding the equations prevents bugs
+6. **Use type hints**: Makes debugging 10x easier
+7. **Write tests**: Unit tests for each component
+8. **Document**: Comment your code extensively
+
+## Optional Enhancements (After 3 months)
+
+- Flash Attention implementation
+- Rotary Position Embeddings (RoPE)
+- Mixed precision training
+- Model parallelism
+- LoRA fine-tuning
+- Quantization techniques
+
+## Emergency Fallback
+
+If you fall behind, prioritize:
+1. Attention mechanism (Week 4-5)
+2. Single encoder block (Week 7)
+3. Training loop (Week 9)
+4. Simple end-to-end model (Week 10-11)
+
+This plan assumes 2-3 hours of focused study daily. Adjust pace based on your schedule, but maintain the sequence as each week builds on previous knowledge.
