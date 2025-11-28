@@ -8,7 +8,7 @@
 **Theory (3 days)**
 - Vector operations, dot products, norms
 - Matrix multiplication and broadcasting
-- Tensor operations in NumPy/PyTorch
+- Tensor operations in NumPy/Tensorflow
 
 **Practice (4 days)**
 - Implement matrix multiplication from scratch
